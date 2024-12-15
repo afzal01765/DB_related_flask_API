@@ -1,5 +1,5 @@
 #  AFZAL KHAN
-# Email - afzalkhan01765835454@gamil.com
+# Email -      afzalkhan01765835454@gamil.com
 from flask import  Flask , jsonify , request
 
 app = Flask (__name__)
