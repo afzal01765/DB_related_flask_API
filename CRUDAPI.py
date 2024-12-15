@@ -1,5 +1,5 @@
 #  AFZAL KHAN
-# Email -      afzalkhan01765835454@gamil.com
+# Email -  afzalkhan01765835454@gamil.com
 from flask import  Flask , jsonify , request
 
 app = Flask (__name__)
@@ -53,7 +53,6 @@ def update_book(book_id):
     return("Error :This book is not found")
 
 #delete a book
-
 #@app.route('/books/<int:book_id>',methods=['DELETE'])
 '''
 def Delete_a_book(book_id):
